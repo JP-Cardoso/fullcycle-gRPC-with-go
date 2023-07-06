@@ -1,1 +1,12 @@
 #Vamos criar um profile, que vai gerar os schemas;
+
+
+Um ponto muito importante é que o gRPC trabalha como
+
+tipo variavel resposta;
+message Category {
+    tipo   variavel resposta;
+    string id =     1;
+    string name =   2;
+    string description = 3;
+}
