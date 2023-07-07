@@ -4,6 +4,11 @@ syntax = "proto3";
 package pb;
 option go_package = "internal/pb";
 
+/*
+A ordem dos números, apenas
+significa a ordem literal de 
+conforme você vai colocando
+*/
 message Category {
     string id = 1;
     string name = 2;

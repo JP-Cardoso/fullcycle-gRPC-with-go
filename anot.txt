@@ -10,3 +10,8 @@ message Category {
     string name =   2;
     string description = 3;
 }
+
+#
+Execute esse comando quando você terminar de criar o arquivo proto
+protoc --go_out=. --go-grpc_out=. proto/course_category.proto
+#
