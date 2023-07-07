@@ -1,11 +1,15 @@
 package main
 
 import (
-	"github.com/JP-Cardoso/grpc-with-go/internal/pb"
-	"google.golang.org/grpc"
-	"github.com/JP-Cardoso/grpc-with-go/internal/service"
-	"github.com/JP-Cardoso/grpc-with-go/internal/database"
 	"database/sql"
+	"net"
+
+	"github.com/JP-Cardoso/grpc-with-go/internal/database"
+	"github.com/JP-Cardoso/grpc-with-go/internal/pb"
+	"github.com/JP-Cardoso/grpc-with-go/internal/service"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/reflection"
+
 	_ "github.com/mattn/go-sqlite3"
 )
 
